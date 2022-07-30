@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coffee Boom</title>
+
+	<!-- CSS file -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="load()">
+	<div class="page">
+		<div class="header">
+			<a href="#home" class="link">
+				<img src="images/logo.png" alt="logo" class="image" onclick="window.location.reload()" onmouseover="big(this)" onmouseout="small(this)">
+			</a>
+			
+			<a href="#coffee" class="link" onclick="change(this);" onmouseover="big(this)" onmouseout="small(this)">Coffee</a>
+			
+			<a href="#order-online" class="link" onclick="change(this);" onmouseover="big(this)" onmouseout="small(this)">Order Online</a>
+			
+			<a href="#about-us" class="link" onclick="change(this)" onmouseover="big(this)" onmouseout="small(this)">About Us</a>
+			
+			<a href="#contacts" class="link" onclick="change(this);" onmouseover="big(this)" onmouseout="small(this)">Contacts</a>
+		</div>
+		
+		<div class="main">
+			<div id="left_side">
+				<img id="img" src="images/grains.png" alt="cup_of_coffee">
+			</div>
+			
+			<div id="right_side">
+				<h1 id="text">Welcome to our coffee Shop!</h1>
+				<br><br>
+				<p id="paragraph">We are coffee punks who don’t exaggerate about their Americanos. Time, temperature, and technique need to be on point to make the best cup of coffee, but it’s all for nothing without quality beans roasted to perfection.</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- JavaScript -->
+	 <script src="script.js"></script>
+</body>
+</html>
